@@ -1,6 +1,6 @@
 package Model;
 
 public class Editora {
-    int id;
-    String nome_editora;
+    private int id;
+    private String nome_editora;
 }
