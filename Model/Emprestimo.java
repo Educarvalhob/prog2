@@ -1,6 +1,6 @@
 package Model;
 
 public class Emprestimo {
-    int id;
-    String data_emprestimo;
+    private int id;
+    private String data_emprestimo;
 }
