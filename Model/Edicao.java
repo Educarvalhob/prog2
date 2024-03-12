@@ -1,7 +1,7 @@
 package Model;
 
 public class Edicao {
-    int id;
-    int ano;
-    String novo_conteudo;
+    private int id;
+    private int ano;
+    private String novo_conteudo;
 }
