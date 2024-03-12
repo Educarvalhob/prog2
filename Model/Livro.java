@@ -1,8 +1,8 @@
 package Model;
 
 public class Livro {
-    int id;
-    String nome_livro;
-    String descricao;
-    int ano_publicacao;
+    private int id;
+    private String nome_livro;
+    private String descricao;
+    private int ano_publicacao;
 }
