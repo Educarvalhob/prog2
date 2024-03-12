@@ -1,6 +1,6 @@
 package Model;
 
 public class Autor {
-    int id;
-    String nome_autor;
+    private int id;
+    private String nome_autor;
 }
