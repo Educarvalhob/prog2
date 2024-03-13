@@ -15,6 +15,14 @@ public class Emprestimo_Livro {
     }
 
 
+    public int getId() {
+        return this.id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public Livro getLivro() {
         return this.livro;
     }
