@@ -10,10 +10,11 @@ public class Edicao {
     public Edicao() {
     }
 
-    public Edicao(int id, int ano, String novo_conteudo) {
+    public Edicao(int id, int ano, String novo_conteudo, Livro livro) {
         this.id = id;
         this.ano = ano;
         this.novo_conteudo = novo_conteudo;
+        this.livro = livro;
     }
 
     public int getId() {
