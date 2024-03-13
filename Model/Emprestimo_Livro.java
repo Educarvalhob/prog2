@@ -1,17 +1,19 @@
 package Model;
 
-public class Emprestimo_livro {
-    private id;
+public class Emprestimo_Livro {
+    private int id;
     private Livro livro;
-    private Emprestimo emprestimo; 
+    private Emprestimo emprestimo;
 
-    public Emprestimo_livro() {
+    public Emprestimo_Livro() {
     }
 
-    public Emprestimo_livro(Livro livro, Emprestimo emprestimo) {
+    public Emprestimo_Livro(int id, Livro livro, Emprestimo emprestimo) {
+        this.id = id;
         this.livro = livro;
         this.emprestimo = emprestimo;
     }
+
 
     public Livro getLivro() {
         return this.livro;

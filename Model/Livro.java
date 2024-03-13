@@ -12,15 +12,14 @@ public class Livro {
     public Livro() {
     }
 
-    public Livro(int id, String nome_livro, String descricao, int ano_publicacao, Autor autor, Edicao edicao, Editora editora, Emprestimo_livro emprestimo_livro) {
+
+    public Livro(int id, String nome_livro, String descricao, int ano_publicacao, Autor autor, Editora editora) {
         this.id = id;
         this.nome_livro = nome_livro;
         this.descricao = descricao;
         this.ano_publicacao = ano_publicacao;
         this.autor = autor;
-        this.edicao = edicao;
         this.editora = editora;
-        this.emprestimo_livro = emprestimo_livro;
     }
 
     public int getId() {
